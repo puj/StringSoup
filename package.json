@@ -1,0 +1,28 @@
+{
+  "name": "stringsoup",
+  "version": "1.0.0",
+  "description": "A package to help finding the best known string match amongst a soup of input strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puj/StringSoup.git"
+  },
+  "keywords": [
+    "strings",
+    "matching",
+    "comparison",
+    "string",
+    "distance",
+    "words",
+    "tokens"
+  ],
+  "author": "puj <vango85@gmail.com> (https://github.com/puj)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puj/StringSoup/issues"
+  },
+  "homepage": "https://github.com/puj/StringSoup#readme"
+}
