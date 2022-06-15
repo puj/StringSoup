@@ -4,17 +4,16 @@ type StringSoupMatch = {
   knownString: string;
   score: number;
 };
-export type StringSoupMatchResult = {
+type StringSoupMatchResult = {
   token: string;
   match: StringSoupMatch;
 };
 
-export type StringSoupResult = {
+type StringSoupResult = {
   best: StringSoupMatchResult;
   all: StringSoupMatchResult[];
 };
-
-export class StringSoup {
+class StringSoup {
   private knownStrings: string[] = [];
 
   constructor(knownStrings: string[]) {
@@ -77,3 +76,4 @@ export class StringSoup {
     };
   };
 }
+export { StringSoup, StringSoupResult, StringSoupMatchResult };

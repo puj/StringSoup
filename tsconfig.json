@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["es2017", "es7", "es6", "dom"],
     "strict": true,
     "declaration": true,
     "esModuleInterop": true,
-    "outDir": "./dist"
+    "outDir": "./lib"
   },
-  "exclude": ["tests", "dist", "node_modules"]
+  "exclude": ["tests", "lib", "node_modules"]
 }
